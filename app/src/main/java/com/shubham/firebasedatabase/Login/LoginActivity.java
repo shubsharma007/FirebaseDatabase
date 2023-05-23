@@ -1,4 +1,4 @@
-package com.shubham.firebasedatabase;
+package com.shubham.firebasedatabase.Login;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,10 +11,10 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.shubham.firebasedatabase.RealtimeDatabase.MainActivity;
 import com.shubham.firebasedatabase.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {

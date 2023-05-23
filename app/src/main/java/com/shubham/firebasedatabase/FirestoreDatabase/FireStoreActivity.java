@@ -1,4 +1,4 @@
-package com.shubham.firebasedatabase;
+package com.shubham.firebasedatabase.FirestoreDatabase;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +11,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.shubham.firebasedatabase.RealtimeDatabase.MainActivity;
 import com.shubham.firebasedatabase.databinding.ActivityFireStoreBinding;
 
 import java.util.HashMap;

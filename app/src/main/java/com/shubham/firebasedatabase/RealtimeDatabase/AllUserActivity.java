@@ -1,4 +1,4 @@
-package com.shubham.firebasedatabase;
+package com.shubham.firebasedatabase.RealtimeDatabase;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,13 +10,13 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.shubham.firebasedatabase.R;
+import com.shubham.firebasedatabase.Model.UserModel;
 import com.shubham.firebasedatabase.databinding.ActivityAllUserBinding;
 
 import java.util.ArrayList;

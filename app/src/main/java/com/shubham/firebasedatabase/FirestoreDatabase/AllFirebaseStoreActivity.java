@@ -1,25 +1,21 @@
-package com.shubham.firebasedatabase;
+package com.shubham.firebasedatabase.FirestoreDatabase;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.QuerySnapshot;
-import com.google.firebase.firestore.WriteBatch;
 import com.shubham.firebasedatabase.Adapter.FirebaseStoreAdapter;
 import com.shubham.firebasedatabase.databinding.ActivityAllFirebaseStoreBinding;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class AllFirebaseStoreActivity extends AppCompatActivity {
 

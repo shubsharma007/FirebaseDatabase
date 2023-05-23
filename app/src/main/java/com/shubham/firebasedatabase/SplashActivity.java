@@ -6,10 +6,11 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.util.Log;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
+import com.shubham.firebasedatabase.Login.LoginActivity;
+import com.shubham.firebasedatabase.RealtimeDatabase.MainActivity;
 import com.shubham.firebasedatabase.databinding.ActivitySpalshBinding;
 
 public class SplashActivity extends AppCompatActivity {

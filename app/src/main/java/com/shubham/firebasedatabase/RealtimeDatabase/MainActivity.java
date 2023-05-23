@@ -1,34 +1,28 @@
-package com.shubham.firebasedatabase;
+package com.shubham.firebasedatabase.RealtimeDatabase;
 
 import static java.lang.String.valueOf;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.renderscript.Sampler;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
+import com.shubham.firebasedatabase.Login.LoginActivity;
+import com.shubham.firebasedatabase.R;
+import com.shubham.firebasedatabase.FirestoreDatabase.FireStoreActivity;
 import com.shubham.firebasedatabase.databinding.ActivityMainBinding;
 
 import java.util.HashMap;
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 

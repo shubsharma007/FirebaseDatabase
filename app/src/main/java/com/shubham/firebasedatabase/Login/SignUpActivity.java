@@ -1,4 +1,4 @@
-package com.shubham.firebasedatabase;
+package com.shubham.firebasedatabase.Login;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,7 +18,6 @@ import com.shubham.firebasedatabase.databinding.ActivitySignUpBinding;
 public class SignUpActivity extends AppCompatActivity {
     ActivitySignUpBinding binding;
     String email, password;
-
 
     private FirebaseAuth mAuth;
 

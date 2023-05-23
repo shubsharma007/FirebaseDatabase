@@ -1,4 +1,4 @@
-package com.shubham.firebasedatabase;
+package com.shubham.firebasedatabase.Model;
 
 public class UserModel {
 
