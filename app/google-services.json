@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895994880302",
+    "project_id": "fir-database-e19dc",
+    "storage_bucket": "fir-database-e19dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895994880302:android:2f059e10076de483641abf",
+        "android_client_info": {
+          "package_name": "com.shubham.firebasedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895994880302-gs34e9t4eqhp9583cj6kgl1bcnnqdk14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbxr0mSP59UopEd-F3weF_2dDyDWGvCKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895994880302-gs34e9t4eqhp9583cj6kgl1bcnnqdk14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
